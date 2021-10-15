@@ -1,0 +1,22 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "server side rendering with next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [
+    "js",
+    "react",
+    "next.js",
+    "ssr"
+  ],
+  "author": "Mikhail <solovyevmikhail@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
