@@ -1,0 +1,104 @@
+.cardsList {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px auto;
+}
+
+.search_form {
+    padding: 20px;
+    border: 1px solid #3338;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.form_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search_item {
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: 2px solid blue;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    background-color: #eee;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 2px #8888;
+            box-shadow: 2px 2px 2px #8888;
+    -webkit-transition: -webkit-transform 0.1s linear;
+    transition: -webkit-transform 0.1s linear;
+    -o-transition: transform 0.1s linear;
+    transition: transform 0.1s linear;
+    transition: transform 0.1s linear, -webkit-transform 0.1s linear;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.btn:active {
+    -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+.reset_btn {
+    display: block;
+    margin: 40px auto 0 auto;
+    background-color: rgba(0, 0, 255, 0.967);
+    color: white;
+    border-radius: 3px;
+}
+
+.reset_btn:hover{
+    background-color: rgba(4, 4, 181, 0.967);
+}
+
+.cards_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cards_container {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
