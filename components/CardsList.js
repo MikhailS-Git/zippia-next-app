@@ -1,5 +1,5 @@
 import Card from "./card"
-import styles from "../styles/CardList.module.css"
+import styles from "../styles/cardList.module.css"
 import { useState } from "react"
 
 export default function CardsList( props ){
