@@ -1,5 +1,5 @@
-import CardsList from '../../components/CardsList'
-import Header from '../../components/Header'
+import CardsList from '../../components/cardsList'
+import Header from '../../components/header'
 
 export default function Jobs({jobs}){
     
