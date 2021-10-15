@@ -1,4 +1,4 @@
-import Card from "./card"
+import Card from "./card.js"
 import styles from "../styles/cardList.module.css"
 import { useState } from "react"
 
